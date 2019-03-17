@@ -9,13 +9,15 @@ public class DataProviderDemo {
 	@DataProvider(name="provider")
 	public Object[][] getData(){
 		
-		Object[][] data={{"abc","xyz"},{"abc1","xyz1"}};
-		return data;
+		
+		return new Object[][] {{"abc","xyz"},{"abc1","xyz1"}};
 		
 	}
 	
-	@Test(dataProvider="providerl")
-	public void catchData(){
+	@Test(dataProvider="provider")
+	public void catchData(String user,String pwd){
+		
+		System.out.println(user+" and "+pwd);
 		
 	}
 }
