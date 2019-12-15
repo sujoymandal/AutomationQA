@@ -4,7 +4,7 @@ public class Demo2 {
 
 	public static void main(String[] args) {
 
-		System.out.println("its demo2!!");
+		System.out.println("updated in feature1");
 	}
 
 }
