@@ -6,6 +6,7 @@ public class Demo2 {
 
 		System.out.println("updated in feature1");
 		System.out.println("added in feature2!!");
+		System.out.println("added again in feature1!!");
 	}
 
 }
