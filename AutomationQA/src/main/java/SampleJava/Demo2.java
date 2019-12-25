@@ -9,6 +9,7 @@ public class Demo2 {
 		//updating in feature3
 		//updates in feature3
 		//needs to take the updates from feature1
+		//updating in feature3
 	}
 
 }
