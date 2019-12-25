@@ -6,6 +6,7 @@ public class Demo2 {
 
 		System.out.println("fresh update in feature1");
 		//no need to have this
+		//need this in different way
 		//updating in feature3
 		//updating in feature1
 		//needs to take the updates from feature1
@@ -13,6 +14,7 @@ public class Demo2 {
 		//duplicate
 
 
+		//updating in feature3
 	}
 
 }
